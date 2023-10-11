@@ -3,4 +3,4 @@
  * contains declarations for my functions
  */
 
-int _putchar(char c)
+int _putchar(char c);
