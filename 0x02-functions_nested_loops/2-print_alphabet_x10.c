@@ -2,8 +2,6 @@
 
 /**
  * print_alphabet_x10 - Prints alphabets x10 using _putchar
- *
- *
  * print_alphabet - Prints alphabets
  */
 void print_alphabet(void)
