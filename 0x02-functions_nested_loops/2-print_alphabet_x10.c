@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints alphabets x10 using _putchar
- * print_alphabet - Prints alphabets
+ * print_alphabet - Prints alphabets using _putchar
+ *
  */
 void print_alphabet(void)
 {
@@ -14,6 +14,11 @@ void print_alphabet(void)
 		alphabet++;
 	}
 }
+
+/**
+ * print_alphabet_x10 - Prints alphabets x10 by calling print_alphabet
+ *
+ */
 void print_alphabet_x10(void)
 {
 	int i;
