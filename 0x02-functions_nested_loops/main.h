@@ -26,4 +26,7 @@ int _abs(int);
 /*prints last digit of a number*/
 int print_last_digit(int);
 
+/*printing every minute in 24 hours*/
+void jack_bauer(void);
+
 
