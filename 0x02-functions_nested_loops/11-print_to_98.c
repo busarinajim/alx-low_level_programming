@@ -8,7 +8,7 @@
 
 void print_int(int num)
 {
-	int index = 9;
+	int i, index = 9;
 	char buffer[10];
 	
 	if (num < 0)
@@ -26,8 +26,6 @@ void print_int(int num)
 		buffer[index--] = num % 10 + '0';
 		num /= 10;
 	}
-	int i;
-
 	for (i = index + 1; i < 10; i++)
 	{
 		_putchar(buffer[i]);
