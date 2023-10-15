@@ -41,10 +41,10 @@ void print_int(int num)
 
 void print_to_98(int n)
 {
+	int i;
+	
 	if (n <= 98)
 	{
-		int i;
-		
 		for (i = n; i <= 98; i++)
 		{
 			print_int(i);
@@ -61,7 +61,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (int i = n; i >= 98; i--)
+		for (i = n; i >= 98; i--)
 		{
 			print_int(i);
 			if (i > 98)
