@@ -3,24 +3,24 @@
 /**
  * print_int - prints integers using _putchar
  * @num: integer to be printe
- * Return: 0
+ * Return:
  */
 
 void print_int(int num)
 {
+	int index = 9;
+	char buffer[10];
+	
 	if (num < 0)
 	{
 		_putchar('-');
 		num = -num;
 	}
-	if (num == 0)
+	else if (num == 0)
 	{
 		_putchar('0');
-		return (0);
+		return;
 	}
-	char buffer[10];
-	int index = 9;
-
 	while (num > 9)
 	{
 		buffer[index--] = num % 10 + '0';
@@ -50,12 +50,12 @@ void print_to_98(int n)
 			print_int(i);
 			if (i < 98)
 			{
-				_putchar(",");
-				_putchar(" ");
+				_putchar(',');
+				_putchar(' ');
 			}	
 			else
 			{
-				_putchar("\n");
+				_putchar('\n');
 			}
 		}
 	}
@@ -68,12 +68,12 @@ void print_to_98(int n)
 			print_int(i);
 			if (i > 98)
 			{
-				_putchar(",");
-				_putchar(" ");
+				_putchar(',');
+				_putchar(' ');
 			}
 			else
 			{
-				_putchar("\n");
+				_putchar('\n');
 			}
 		}
 	}
