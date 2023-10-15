@@ -29,4 +29,7 @@ int print_last_digit(int);
 /*printing every minute in 24 hours*/
 void jack_bauer(void);
 
+/*prints times table*/
+void times_table(void);
+
 
