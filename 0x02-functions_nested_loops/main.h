@@ -35,4 +35,7 @@ void times_table(void);
 /*add two integers*/
 int add(int, int);
 
+/*printing n to 98*/
+void print_to_98(int n);
+
 
