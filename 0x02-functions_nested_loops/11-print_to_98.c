@@ -26,7 +26,7 @@ void print_int(int num)
 		buffer[index--] = num % 10 + '0';
 		num /= 10;
 	}
-	for (i = index + 1; i < 10; i++)
+	for (i = index; i < 10; i++)
 	{
 		_putchar(buffer[i]);
 	}
