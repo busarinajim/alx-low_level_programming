@@ -2,13 +2,18 @@
 
 /**
  * puts_half - prints second half of string
- * str: string to be printed
+ * @str: string to be printed
  *
  */
 
 void puts_half(char *str)
 {
 	int length, start_index, i;
+
+	if (str == NULL)
+	{
+		return;
+	}
 
 	length = 0;
 	while (str[length] != '\0')
