@@ -8,12 +8,7 @@
 
 void puts_half(char *str)
 {
-	int length, start_index, i;
-
-	if (str == NULL)
-	{
-		return;
-	}
+	size_t length, start_index, i;
 
 	length = 0;
 	while (str[length] != '\0')
