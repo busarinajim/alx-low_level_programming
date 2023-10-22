@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int i,x,y;
+	int i, x, y;
 
 	for (i = 0; i < 10; i++)
 	{
