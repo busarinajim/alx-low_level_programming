@@ -1,4 +1,5 @@
 #include "main.h"
+#include "null.h"
 
 /**
  * _strstr - locates a substring in a string
@@ -26,5 +27,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 		haystack++;
 	}
-	return (0);
+	return (NULL);
 }
