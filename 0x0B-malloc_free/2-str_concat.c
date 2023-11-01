@@ -49,4 +49,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	concatenated[len1 + len2] = '\0';
 	return (concatenated);
-}	
+}
